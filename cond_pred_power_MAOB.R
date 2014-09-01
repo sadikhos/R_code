@@ -148,8 +148,8 @@ cpower(type1 = 0.1
        ,delta.t = 2.23    # observed z score at interim
        ,sigma.t = 8.03    # observed variance of the z-score at interim
        ,N = 118           # per arm sample size
-       ,n.a = 1          # n at interim in arm 'a'
-       ,n.b = 1          # n at interim in arm 'b'
+       ,n.a = 1           # n at interim in arm 'a'
+       ,n.b = 1           # n at interim in arm 'b'
        )
 
 
