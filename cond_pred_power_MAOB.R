@@ -91,7 +91,7 @@ ppowerf(type1 = 0.1
 
 # Assumption: under null hypothesis
 cpower(type1 = 0.1
-       ,type2 =  0.2     # type 2 error rate beta
+       ,type2 =  0.2      # type 2 error rate beta
        ,delta = 2.23
        ,delta.t = 2.23    # observed z score at interim
        ,sigma.t = 8.03    # observed variance of the z-score at interim
@@ -101,13 +101,13 @@ cpower(type1 = 0.1
        ,two.sided = FALSE)
 
 cpower(type1 = 0.1
-       ,type2 =  0.2     # type 2 error rate beta
+       ,type2 =  0.2      # type 2 error rate beta
        ,delta = 2.23
        ,delta.t = 2.23    # observed z score at interim
        ,sigma.t = 8.03    # observed variance of the z-score at interim
        ,N = 118           # per arm sample size
-       ,n.a = 1          # n at interim in arm 'a'
-       ,n.b = 1          # n at interim in arm 'b'
+       ,n.a = 1           # n at interim in arm 'a'
+       ,n.b = 1           # n at interim in arm 'b'
        ,two.sided = FALSE)
 
 # Assmuption: Original treatment size, but observed variability at interim
@@ -138,8 +138,8 @@ cpower(type1 = 0.1
        ,delta.t = 2.23    # observed z score at interim
        ,sigma.t = 8.03    # observed variance of the z-score at interim
        ,N = 118           # per arm sample size
-       ,n.a = 118          # n at interim in arm 'a'
-       ,n.b = 118          # n at interim in arm 'b'
+       ,n.a = 118         # n at interim in arm 'a'
+       ,n.b = 118         # n at interim in arm 'b'
        )
 
 cpower(type1 = 0.1
